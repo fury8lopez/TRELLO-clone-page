@@ -12,7 +12,7 @@
 - **Estructura de Carpetas Modular**: Organización de archivos siguiendo una estructura **feature-based**, lo que mejora la claridad y modularidad del proyecto.
 
 ## 📋 Detalles del Ejercicio
-Este proyecto consistió en clonar la página de Trello, replicando tanto su interfaz como parte de su funcionalidad, incluyendo:
+Este proyecto consistió en clonar la página de Trello, replicando su landing page a partir de una captura de la misma.
 
 
 ### 🚧 Retos en la Clonación de la Página de Trello
