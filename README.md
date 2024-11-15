@@ -1,7 +1,7 @@
 # Clon de Trello
 
 ## 🌐 Live Preview
-[Ver Demo en Vivo](#) <!-- Reemplaza "#" con el enlace a tu despliegue en vivo, por ejemplo, en Vercel, Netlify, GitHub Pages, etc. -->
+[Ver Demo en Vivo](#.) <!-- Reemplaza "#" con el enlace a tu despliegue en vivo, por ejemplo, en Vercel, Netlify, GitHub Pages, etc. -->
 
 ## 🛠️ Tecnologías Usadas
 - **Frontend**: HTML, CSS, JavaScript
