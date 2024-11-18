@@ -1,7 +1,7 @@
 /* Media query para  tablet  */
 @media (min-width: 427px) {
 	:root {
-		--container-width: 85%;
+		--container-width: 90%;
 	}
 
 	.show-on-mobile {
@@ -19,16 +19,37 @@
 	}
 
 	.article {
-		width: 50%;
-		padding-left: 50px;
+		width: 85%;
 	}
 
-	
 	.description-cards-container{
 		display: flex;
+		justify-content: space-between;
 		flex-direction: row;
 	}
-	
+
+	.card-gray-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+
+	.description-card-gray {
+		max-width: 300px;
+		align-items: center;
+	}
+
+	.description-review-link {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.review-card {
+		max-width: 700px;
+		max-height: 550px;
+	}
 }
 
 /* Media query para escritorio (mayores a 1024px y hasta 1439px) */
@@ -81,6 +102,7 @@
 		align-items: center;
 		justify-content: center;
 		text-align: center;
+        padding: 0px 30px;
 	}
 
 	.video-hero {
@@ -97,4 +119,92 @@
 		flex-direction: column;
 	}
 
+	.article-description-desktop {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	.imagen-desktop-trello img {
+		padding: 20px 12px;
+		width: 100%; 
+	}
+
+	.description-cards-container {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.action-paragraph {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.action-paragraph{
+		gap: 100px;
+	}
+
+	.paragraph-action {
+		flex: 4;
+		text-align: start;
+		max-width: 700px;
+		min-height: 75px;
+	}
+
+	.button-action {
+		flex: 1;
+		padding: 10px 20px;
+	}
+
+	.visibility-container{
+		flex-direction: row;
+		gap: 24px;
+	}
+
+	.visibility-description {
+		justify-content: center;
+		padding: 0 40px;
+	}
+
+	.visibility-container img {
+		width: 50%;
+	}
+
+	.inverted {
+		flex-direction: row-reverse;
+	}
+
+	.card-gray-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		padding: 0 40px;
+	}
+
+	.description-h2 {
+		font-size: 24px;
+		max-width: 75%;
+	}
+
+	.review-card {
+		display: flex;
+		flex-direction: row;
+		max-width: 800px;
+		max-height: 350px;
+	}
+
+	.review-descriptions {
+		flex: 3;
+	}
+
+	.review-percent {
+		flex: 1;
+		border-bottom-left-radius: 0px;
+		border-top-right-radius: 12px;
+	}
+
+	.price-container {
+		flex-direction: row;
+	}
 }
